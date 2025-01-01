@@ -881,7 +881,7 @@ class _MobileTemplateState extends State<MobileTemplate>
                 Navigator.pop(context);
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => BookingScreen()),
+                  MaterialPageRoute(builder: (context) => BookingPage()),
                 );
               },
               style: ElevatedButton.styleFrom(
@@ -987,7 +987,7 @@ class _MobileTemplateState extends State<MobileTemplate>
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => BookingScreen()),
+                                builder: (context) => BookingPage()),
                           );
                         },
                         style: ElevatedButton.styleFrom(
