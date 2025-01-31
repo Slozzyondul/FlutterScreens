@@ -597,6 +597,7 @@ class _MobileTemplateState extends State<MobileTemplate>
 
   void navigateToScreen(
       BuildContext context, String screenName, bool isDisabled) {
+    print('Navigating to: $screenName');
     if (isDisabled) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
@@ -614,7 +615,7 @@ class _MobileTemplateState extends State<MobileTemplate>
           MaterialPageRoute(builder: (context) => SplashScreenShowcase()),
         );
         break;
-      case 'Sign-Up Screen':
+      case 'Signup Screen':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => SignUpScreenShowcase()),
