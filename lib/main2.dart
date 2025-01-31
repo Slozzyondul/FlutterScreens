@@ -657,13 +657,25 @@ class _MobileTemplateState extends State<MobileTemplate>
           MaterialPageRoute(builder: (context) => HomeScreen()),
         );
         break;
-      case 'Settings':
+      case 'Settings Screen':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => const SettingsScreen()),
         );
         break;
-      case 'Profile':
+      // case 'Data Visualization':
+      //   Navigator.push(
+      //     context,
+      //     MaterialPageRoute(builder: (context) => Graph()),
+      //   );
+      //   break;
+      case 'Rating UI':
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => MiscShowcase()),
+        );
+        break;
+      case 'Profile Screen':
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => ProfileScreenShowcase()),
