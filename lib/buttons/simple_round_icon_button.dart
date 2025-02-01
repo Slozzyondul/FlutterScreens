@@ -33,11 +33,11 @@ class SimpleRoundIconButton extends StatelessWidget {
             children: <Widget>[
               TextButton(
                 style: ButtonStyle(
-                  shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                  shape: WidgetStateProperty.all(RoundedRectangleBorder(
                       borderRadius: new BorderRadius.circular(30.0))),
-                  overlayColor: MaterialStateProperty.all(this.backgroundColor),
+                  overlayColor: WidgetStateProperty.all(this.backgroundColor),
                   backgroundColor:
-                      MaterialStateProperty.all(this.backgroundColor),
+                      WidgetStateProperty.all(this.backgroundColor),
                 ),
                 child: new Row(
                   children: <Widget>[

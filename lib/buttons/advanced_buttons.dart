@@ -14,9 +14,9 @@ class AdvancedButtons {
           Expanded(
             child: TextButton(
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0))),
-                backgroundColor: MaterialStateProperty.all(Colors.redAccent),
+                backgroundColor: WidgetStateProperty.all(Colors.redAccent),
               ),
               onPressed: onPressed,
               child: Padding(
@@ -46,10 +46,10 @@ class AdvancedButtons {
           Expanded(
             child: TextButton(
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0))),
                 backgroundColor:
-                    MaterialStateProperty.all(Colors.deepOrangeAccent),
+                    WidgetStateProperty.all(Colors.deepOrangeAccent),
               ),
               onPressed: onPressed,
               child: Row(
@@ -116,9 +116,9 @@ class AdvancedButtons {
       padding: const EdgeInsets.only(left: 20.0, right: 20.0),
       child: TextButton(
         style: ButtonStyle(
-          shape: MaterialStateProperty.all(RoundedRectangleBorder(
+          shape: WidgetStateProperty.all(RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(30.0))),
-          backgroundColor: MaterialStateProperty.all(Colors.redAccent),
+          backgroundColor: WidgetStateProperty.all(Colors.redAccent),
         ),
         onPressed: onPressed,
         child: Row(
@@ -148,9 +148,9 @@ class AdvancedButtons {
           Expanded(
             child: TextButton(
               style: ButtonStyle(
-                shape: MaterialStateProperty.all(RoundedRectangleBorder(
+                shape: WidgetStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0))),
-                backgroundColor: MaterialStateProperty.all(Colors.grey[300]),
+                backgroundColor: WidgetStateProperty.all(Colors.grey[300]),
               ),
               onPressed: null,
               child: Padding(
