@@ -39,15 +39,15 @@ class SimpleRoundOnlyIconButton extends StatelessWidget {
               new Expanded(
                 child: TextButton(
                   style: ButtonStyle(
-                    shape: MaterialStateProperty.all(
+                    shape: WidgetStateProperty.all(
                       RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(30.0),
                       ),
                     ),
                     overlayColor:
-                        MaterialStateProperty.all(this.backgroundColor),
+                        WidgetStateProperty.all(this.backgroundColor),
                     backgroundColor:
-                        MaterialStateProperty.all(this.backgroundColor),
+                        WidgetStateProperty.all(this.backgroundColor),
                   ),
                   child: new Row(
                     mainAxisAlignment: getMainAxisAlignment(),
@@ -63,15 +63,15 @@ class SimpleRoundOnlyIconButton extends StatelessWidget {
                                     bottom: 10.0),
                                 child: TextButton(
                                   style: ButtonStyle(
-                                    shape: MaterialStateProperty.all(
+                                    shape: WidgetStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(28.0),
                                       ),
                                     ),
-                                    overlayColor: MaterialStateProperty.all(
+                                    overlayColor: WidgetStateProperty.all(
                                         backgroundColor),
-                                    backgroundColor: MaterialStateProperty.all(
+                                    backgroundColor: WidgetStateProperty.all(
                                         backgroundColor),
                                   ),
                                   child: Icon(
@@ -96,16 +96,16 @@ class SimpleRoundOnlyIconButton extends StatelessWidget {
                                     bottom: 10.0),
                                 child: TextButton(
                                   style: ButtonStyle(
-                                    shape: MaterialStateProperty.all(
+                                    shape: WidgetStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(28.0),
                                       ),
                                     ),
                                     overlayColor:
-                                        MaterialStateProperty.all(Colors.white),
+                                        WidgetStateProperty.all(Colors.white),
                                     backgroundColor:
-                                        MaterialStateProperty.all(Colors.white),
+                                        WidgetStateProperty.all(Colors.white),
                                   ),
                                   child: Icon(
                                     icon!.icon,
@@ -135,16 +135,16 @@ class SimpleRoundOnlyIconButton extends StatelessWidget {
                                     bottom: 10.0),
                                 child: TextButton(
                                   style: ButtonStyle(
-                                    shape: MaterialStateProperty.all(
+                                    shape: WidgetStateProperty.all(
                                       RoundedRectangleBorder(
                                         borderRadius:
                                             BorderRadius.circular(28.0),
                                       ),
                                     ),
                                     overlayColor:
-                                        MaterialStateProperty.all(Colors.white),
+                                        WidgetStateProperty.all(Colors.white),
                                     backgroundColor:
-                                        MaterialStateProperty.all(Colors.white),
+                                        WidgetStateProperty.all(Colors.white),
                                   ),
                                   child: Icon(
                                     icon!.icon,

@@ -97,10 +97,10 @@ class _LoginScreen5State extends State<LoginScreen5> {
                     margin: EdgeInsets.only(top: 40, left: 30, right: 30),
                     child: ElevatedButton(
                       style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(
+                        backgroundColor: WidgetStateProperty.all<Color>(
                           Color.fromRGBO(255, 87, 34, 1),
                         ),
-                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                           RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                           ),
@@ -122,7 +122,7 @@ class _LoginScreen5State extends State<LoginScreen5> {
                         // backgroundColor: MaterialStateProperty.all<Color>(
                         //   Colors.transparent,
                         // ),
-                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                           RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                           ),
